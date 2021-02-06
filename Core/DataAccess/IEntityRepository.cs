@@ -1,10 +1,14 @@
-﻿using Entities.Abstract;
+﻿using Core.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Text;
 
-namespace DataAccess.Abstract
+
+/// Coore katmanı diğer katmanları referans almaz. çok önemli
+
+
+namespace Core.DataAccess
 {
     //generic costraint 
     //class : reference tip
